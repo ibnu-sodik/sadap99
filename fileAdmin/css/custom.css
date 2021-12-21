@@ -1,0 +1,26 @@
+.orange {
+	color: #F0BA46!important;
+}
+
+.tombol-layang {
+	border-radius: 50%;
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+	z-index: 999;
+}
+
+.spinner-preview {
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	margin-top: 60px;
+}
+
+#loading
+{
+	margin: auto;
+	text-align:center; 
+	background: url('../images/loading.gif') no-repeat center; 
+	height: 150px;
+}

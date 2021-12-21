@@ -1,0 +1,101 @@
+/**
+ * styles for block of pagination
+ */
+ .pgntn-page-pagination {
+ 	margin: 1em 0;
+ 	padding: 0;
+ 	overflow: hidden;
+ 	text-align: center !important;
+ 	clear: both;
+ 	cursor: default;
+ }
+ .pgntn-page-pagination .dots {
+ 	display: inline-block;
+ 	text-align: center;
+ 	margin-bottom: 0.5em;
+ 	margin-left: 0.5em;
+ 	padding: 0.3em 0.5em;
+ }
+ .pgntn-multipage .pgntn-elipses,
+ .pgntn-multipage .pgntn-page-pagination-intro {
+ 	display: inline-block;
+ 	margin-right: 0;
+ 	text-align: center;
+ }
+ .pgntn-multipage .pgntn-page-pagination-block a:first-of-type {
+ 	margin-left: 0;
+ }
+ .pgntn-multipage .pgntn-page-pagination-block span:first-of-type ~ a {
+ 	margin-left: 0.5em;
+ }
+ .pgntn-page-pagination-intro,
+ .pgntn-page-pagination a,
+ .pgntn-page-pagination .current {
+ 	display: inline-block;
+ 	text-align: center;
+ 	margin-left: 0.5rem;
+ 	margin-bottom: 0.5rem;
+ 	padding: 0.3rem 0.5rem;
+ }
+ .pgntn-page-pagination a {
+ 	box-shadow: none !important;
+ }
+ div.pgntn-page-pagination-block a.prev,
+ .pgntn-page-pagination-block .next {
+ 	display: inline-block;
+ 	float: none;
+ }
+
+ /*New*/
+ 
+ .pgntn-page-pagination-block {
+ 	width: 60% !important;
+ 	padding: 0 0 0 0;
+ 	margin: 0 auto;
+ 	<? } elseif ( 'right' == $pgntn_options['align'] ) { ?>
+ 		float: right;
+ 	}
+ 	.pgntn-page-pagination a {
+ 		/*color: #1e14ca !important;*/
+ 		background-color: #ffffff !important;
+ 		text-decoration: none !important;
+ 		border: 1px solid #cccccc !important;
+ 	}
+ 	.pgntn-page-pagination a:hover {
+ 		color: #000 !important;
+ 	}
+ 	.pgntn-page-pagination-intro,
+ 	.pgntn-page-pagination .current {
+ 		background-color: #efefef !important;
+ 		color: #000 !important;
+ 		border: 1px solid #cccccc !important;
+ 	}
+ 	.archive #nav-above,
+ 	.archive #nav-below,
+ 	.search #nav-above,
+ 	.search #nav-below,
+ 	.blog #nav-below,
+ 	.blog #nav-above,
+ 	.navigation.paging-navigation,
+ 	.navigation.pagination,
+ 	.pagination.paging-pagination,
+ 	.pagination.pagination,
+ 	.pagination.loop-pagination,
+ 	.bicubic-nav-link,
+ 	#page-nav,
+ 	.camp-paging,
+ 	#reposter_nav-pages,
+ 	.unity-post-pagination,
+ 	.wordpost_content .nav_post_link,.page-link,
+ 	.post-nav-links,
+ 	.page-links,#comments .navigation,
+ 	#comment-nav-above,
+ 	#comment-nav-below,
+ 	#nav-single,
+ 	.navigation.comment-navigation,
+ 	comment-pagination {
+ 		display: none !important;
+ 	}
+ 	.single-gallery .pagination.gllrpr_pagination {
+ 		display: block !important;
+ 	}		
